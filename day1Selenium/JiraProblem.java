@@ -39,11 +39,11 @@ driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 		
 		driver.get("https://comparecheck.atlassian.net/");	
 		
-		driver.findElement(By.name("username")).sendKeys("bharathimanohar0696@gmail.com");
+		driver.findElement(By.name("username")).sendKeys("shilviyajayaraj86@gmail.com");
 		
 		driver.findElement(By.id("login-submit")).click();
 		
-		driver.findElement(By.id("password")).sendKeys("Bharathi@1996");
+		driver.findElement(By.id("password")).sendKeys("Shilviya@123");
 		
 		driver.findElement(By.xpath("//span[text()='Log in']")).click();
 		
